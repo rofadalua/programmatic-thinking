@@ -1,4 +1,4 @@
-let a, b, c, result;
+let a, b, c, d, e, f, g, h, result;
 
 // Question 1
 // Make the result be the sum of a and b
@@ -27,4 +27,19 @@ a = 10;
 b = undefined; // ?
 
 result = a / b 
+
+// Question 4
+// Make the result be the average of a, b, c, d
+
+a = 10;
+
+b = 0; 
+
+c = 10;
+
+d = 0
+
+
+result = undefined // ?
+
 
