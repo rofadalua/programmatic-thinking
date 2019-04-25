@@ -1,5 +1,7 @@
 let a, b, c, d, e, f, g, h, result;
 
+// -For the following questions you will need to use mathmatical operators-
+
 // Question 1
 // Make the result be the sum of a and b
 
@@ -60,6 +62,7 @@ a = 10;
 
 result = undefined; // ?
 
+// - For the following questions, you will need to use for loops -
 
 // Question 7
 // Make the console.log run 7 times
@@ -75,6 +78,19 @@ result = undefined; // ?
 
 result = 0
 a = 10
+// ?
+// ? 
+// ?
+
+
+// Question 9
+// Make the result the sum of all numbers between 0 and 10
+// You can write any numbers.
+var startingPlace = 0;
+var endingPlace = 10;
+
+result = 0
+
 // ?
 // ? 
 // ?
