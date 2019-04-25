@@ -134,3 +134,33 @@ result = 0
 // ?
 // ? 
 // ?
+
+// Question 13
+// Make the result 7;
+// You cannot reference "result" anywhere that it is not already referenced.
+
+result = 0
+
+// ?
+    result += 1;
+// ?
+
+// Question 14
+// Make the result 10;
+// You cannot reference "result" anywhere that it is not already referenced.
+
+result = 0
+
+// ?
+    result += 1;
+// ?
+
+// Question 15
+// Make the result 10;
+// You cannot reference "result" anywhere that it is not already referenced.
+
+result = 0
+
+// ?
+    result += 2;
+// ?
