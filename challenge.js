@@ -19,3 +19,12 @@ b = undefined; // ?
 
 result = a * b 
 
+// Question 3
+// Make the result be 5
+
+a = 10;
+
+b = undefined; // ?
+
+result = a / b 
+
