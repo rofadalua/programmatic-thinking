@@ -60,3 +60,21 @@ a = 10;
 
 result = undefined; // ?
 
+
+// Question 7
+// Make the console.log run 7 times
+
+// ?
+    console.log('I am logging 7 times') 
+// ?
+
+
+// Question 8
+// Make the result equal to 70.
+// You cannot write any numbers.
+
+result = 0
+a = 10
+// ?
+// ? 
+// ?
