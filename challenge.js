@@ -43,3 +43,14 @@ d = 0
 result = undefined // ?
 
 
+// Question 5
+// Make the result be the remainder from when a and b are divided
+
+a = 10;
+
+b = 3; 
+
+result = undefined // ?
+
+
+
