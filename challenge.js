@@ -53,4 +53,10 @@ b = 3;
 result = undefined // ?
 
 
+// Question 6
+// Make the result a boolean of whether or not a is an even number
+
+a = 10;
+
+result = undefined; // ?
 
