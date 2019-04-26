@@ -9,14 +9,14 @@ a = 10;
 
 b = 20;
 
-result = a + b; // ?
+result =  // ?
 
 // Question 2
 // Make the result be 20
 
-a = 10;
+a = 10
 
-b = 2; // ?
+b = 2 // ?
 
 result = a * b;
 
@@ -25,7 +25,7 @@ result = a * b;
 
 a = 10;
 
-b = 2; // ?
+b = // ?
 
 result = a / b;
 
@@ -40,7 +40,7 @@ c = 10;
 
 d = 0;
 
-result = (a + b + c + d) / 4; // ?
+result =  // ?
 
 // Question 5
 // Make the result be the remainder from when a and b are divided
@@ -49,14 +49,14 @@ a = 10;
 
 b = 3;
 
-result = 10 % 3; // ?
+result =  // ?
 
 // Question 6
 // Make the result a boolean of whether or not a is an even number
 
 a = 10;
 
-result = a % 2 !== 0; // ?
+result =  // ?
 
 // - For the following questions, you will need to use for loops -
 // https://www.w3schools.com/js/js_loop_for.asp
@@ -65,16 +65,15 @@ result = a % 2 !== 0; // ?
 // Make the console.log run 7 times
 
 var step;
-for (step = 0; step < 7; step += 1) {
+
   console.log("I am logging 7 times");
-}
 
 // Question 8
 // Make the result equal to 70.
 // You cannot write any numbers.
 result = 0;
 a = 10;
-for (result = 0; result < 70; result += a) {}
+
 
 // ?
 
@@ -87,13 +86,6 @@ var currentNumber;
 
 result = 0;
 
-for (
-  currentNumber = startingPlace;
-  currentNumber <= endingPlace;
-  currentNumber += 1
-) {
-  result += currentNumber;
-}
 
 // Question 10
 // Make the result the sum of all even numbers between 0 and 10
@@ -115,11 +107,11 @@ for (zero = startingPlace; zero <= endingPlace; zero += 1) {
 var startingPlace = 0;
 var endingPlace = 10;
 var zero = 0;
-for (zero = startingPlace; zero <= endingPlace; zero += 1) {
-  if (zero % 2 !== 0) {
-    result += zero;
-  }
-}
+// for (zero = startingPlace; zero <= endingPlace; zero += 1) {
+//   if (zero % 2 !== 0) {
+//     result += zero;
+//   }
+// }
 result = 0;
 
 // ?
@@ -134,11 +126,11 @@ var three = 3;
 var i;
 
 result = 0;
-for (i = 0; i < 15; i += 1) {
-  if (i % three === 0) {
-    result += i;
-  }
-}
+// for (i = 0; i < 15; i += 1) {
+//   if (i % three === 0) {
+//     result += i;
+//   }
+// }
 // ?
 // ?
 // ?
@@ -149,9 +141,9 @@ for (i = 0; i < 15; i += 1) {
 
 result = 0;
 var i = 0;
-for (i = 0; i < 7; i += 1) {
-  result += 1;
-}
+// for (i = 0; i < 7; i += 1) {
+//   result += 1;
+// }
 
 // ?
 
@@ -161,9 +153,9 @@ for (i = 0; i < 7; i += 1) {
 
 result = 0;
 var i = 0;
-for (i = 0; i < 10; i += 1) {
-  result += 1;
-}
+// for (i = 0; i < 10; i += 1) {
+//   result += 1;
+// }
 
 // ?
 
