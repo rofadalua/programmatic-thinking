@@ -232,6 +232,7 @@ var divide = function(a,b){
 }
 
 result = divide(10, 10)
+result = divede(10,5)
 
 
 // Question 19
@@ -245,4 +246,24 @@ b = 5
 var subtract = function(a, b){
     return a - b
 }
-result = subtract(a, b)
+result =  undefined // ?
+
+// Question 20
+// Make total expenses equal to the sum of expense_1 and expense_2
+// Make total revenue equal to the sum of revenue_1 and revenue_2
+// You can only use "+" once 
+
+expense_1 = 100
+expense_2 = 200
+
+revenue_1 = 500
+revenue_2 = 200
+
+var add = function(number_1, number_2) {
+    return number_1 + number_2
+}
+
+total_expenses = add(expense_1,expense_2)
+total_revenue = add(revenue_1,revenue_2)
+
+
