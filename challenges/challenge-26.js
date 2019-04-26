@@ -1,5 +1,5 @@
 // Challenge 25
-// Find the profit (the revenue - the expense) for each year
+// Find the profit (the revenue - the expenses) for each year
 // Do can only use "-" once
 // Do not create a function called subtract
 
