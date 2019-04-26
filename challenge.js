@@ -204,4 +204,45 @@ var add = function(a, b) {
   return a+b
 };
 
-// result = add(10, 10);
+
+// Question 17
+// Make the result 0. 
+// You cannot write any numbers 
+
+let subtract = function(a,b) {
+    return (a - b)
+};
+result = subtract(10, 10)
+
+
+// Question 18
+// Make the result 100. 
+// You cannot write any numbers 
+var  multiply = function(a,b) {
+    return a*b
+}
+result = multiply(10, 10)
+
+
+// Question 18
+// Make the result 1. 
+// You cannot write any numbers 
+var divide = function(a,b){
+    return a/b
+}
+
+result = divide(10, 10)
+
+
+// Question 19
+// Make the result 5
+// Write no numbers
+// Use the defined function instead of subtracting directly 
+
+a = 10
+b = 5
+
+var subtract = function(a, b){
+    return a - b
+}
+result = subtract(a, b)
