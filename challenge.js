@@ -74,21 +74,21 @@ for(step = 0; step < 7; step+=1)
 result = 0;
 a = 10;
 
-for()
+
 
 // ?
 
 // Question 9
 // Make the result the sum of all numbers between 0 and 10
 // You cannot write any numbers.
-// var startingPlace = 0;
 var endingPlace = 10;
-var i;
-
-for(i=0; i< endingPlace; i+=1){
-  result+=i
-}
+var startingPlace = 0;
 result = 0;
+var i = 0
+for(i=0; i<= endingPlace; i+=1){
+  result+=i;
+}
+
 
 
 // Question 10
@@ -99,8 +99,8 @@ var endingPlace = 10;
 var zero = 0;
 
 result = 0;
-for (zero = startingPlace; zero <= endingPlace; zero += 1) {
-  if (zero % 2 !== 0) {
+for (zero = startingPlace; zero < endingPlace; zero += 1) {
+  if (zero % 2 == 0) {
     result += zero;
   }
 }
@@ -108,14 +108,23 @@ for (zero = startingPlace; zero <= endingPlace; zero += 1) {
 // Question 11
 // Make the result the sum of all odd numbers between 0 and 10
 // You cannot write any numbers.
-var startingPlace = 0;
-var endingPlace = 10;
-var zero = 0;
-// for (zero = startingPlace; zero <= endingPlace; zero += 1) {
-//   if (zero % 2 !== 0) {
-//     result += zero;
-//   }
-// }
+
+
+var i = 0
+result = 0;
+for(i=0; i<=10; i+=1){
+  if(i%2 !==0){
+      result+=i;
+  }
+}
+
+or 
+
+for (zero = startingPlace; zero <= endingPlace; zero += 1) {
+  if (zero % 2 !== 0) {
+    result += zero;
+  }
+}
 result = 0;
 
 // ?
@@ -130,6 +139,9 @@ var three = 3;
 var i;
 
 result = 0;
+ for(i=0; i<)
+
+
 // for (i = 0; i < 15; i += 1) {
 //   if (i % three === 0) {
 //     result += i;
