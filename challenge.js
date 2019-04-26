@@ -255,6 +255,7 @@ total_revenue = add(revenue_1, revenue_2);
 // Make profit equal to the sum of revenue_1 and revenue_2 minus the sum of revenue_1 and revenue_2
 // You can only use "+" once
 // You can only use "-" once
+// You cannot create any more variables
 
 expense_1 = 100;
 expense_2 = 200;
