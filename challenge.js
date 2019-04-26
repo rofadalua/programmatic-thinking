@@ -65,7 +65,7 @@ result = a % 2 !== 0; // ?
 // Make the console.log run 7 times
 
 var step;
-for (step = 0; step < 7; step = step + 1) {
+for (step = 0; step < 7;  step += 1) {
   console.log("I am logging 7 times");
 }
 
@@ -103,18 +103,29 @@ var endingPlace = 10;
 var zero = 0;
 
 result = 0;
+for( 
+     zero = startingPlace;
+     zero<=endingPlace;
+      zero+=1) {
+        if (zero%2!==0){
+            result +=zero
+        }  
 
-// ?
-// ?
-// ?
+}
 
 // Question 11
 // Make the result the sum of all odd numbers between 0 and 10
 // You cannot write any numbers.
 var startingPlace = 0;
 var endingPlace = 10;
-var zero = 0;
-
+var zero=0;
+for(zero = startingPlace;
+     zero <= endingPlace;
+      zero+=1 ) {
+         if (zero%2 !==0) {
+            result +=zero    
+         }
+}
 result = 0;
 
 // ?
@@ -124,12 +135,18 @@ result = 0;
 // Question 12
 // Make the result the sum of all numbers perfectly divisible by 3
 // You cannot write any numbers.
-var startingPlace = 0;
-var endingPlace = 10;
+
 var three = 3;
+var i;
+
 
 result = 0;
-
+for(i=0; i < 15; 
+    i+=1) {
+        if (i%three===0) {
+            result+=i
+}
+}
 // ?
 // ?
 // ?
@@ -139,9 +156,12 @@ result = 0;
 // You cannot reference "result" anywhere that it is not already referenced.
 
 result = 0;
+var i = 0
+for(i=0; i< 7; i+=1){
+    
+    result += 1;  
+}
 
-// ?
-result += 1;
 // ?
 
 // Question 14
@@ -149,9 +169,12 @@ result += 1;
 // You cannot reference "result" anywhere that it is not already referenced.
 
 result = 0;
+var i = 0
+for(i=0; i<10; i+=1){
+    result += 1; 
 
-// ?
-result += 1;
+}
+
 // ?
 
 // Question 15
@@ -159,9 +182,15 @@ result += 1;
 // You cannot reference "result" anywhere that it is not already referenced.
 
 result = 0;
+var i= 0
 
-// ?
-result += 2;
+for(i=0; i<5; i+=2) {
+    //if(i/2==5){
+        result += 2; 
+    //}       
+}
+
+
 // ?
 
 // - For the following questions, you will need to use functions -
@@ -172,7 +201,7 @@ result += 2;
 // You cannot write any numbers
 
 var add = function(a, b) {
-  return undefined; //?
+  return a+b
 };
 
 result = add(10, 10);
