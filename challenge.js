@@ -239,3 +239,16 @@ revenue_2 = 200
 
 total_expenses =  undefined // ?
 total_revenue = undefined // ?
+
+// Question 21
+// Make profit equal to the sum of revenue_1 and revenue_2 minus the sum of revenue_1 and revenue_2
+// You can only use "+" once 
+// You can only use "-" once
+
+expense_1 = 100
+expense_2 = 200
+
+revenue_1 = 500
+revenue_2 = 200
+
+profit = undefined // ?
