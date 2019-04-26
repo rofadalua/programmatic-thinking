@@ -9,11 +9,11 @@ var expenses_year_1 = 200
 var revenue_year_2 = 200
 var expenses_year_2 = 300
 
-var revenue_year_3 = 100
-var expenses_year_3 = 200
+var revenue_year_3 = 300
+var expenses_year_3 = 400
 
-var revenue_year_4 = 200
-var expenses_year_4 = 300
+var revenue_year_4 = 400
+var expenses_year_4 = 500
 
 var total_profit_1 = undefined
 var total_profit_2 = undefined
