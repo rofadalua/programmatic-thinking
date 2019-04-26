@@ -9,7 +9,7 @@ a = 10;
 
 b = 20;
 
-result =  // ?
+result = a + b // ?
 
 // Question 2
 // Make the result be 20
@@ -25,7 +25,7 @@ result = a * b;
 
 a = 10;
 
-b = // ?
+b = 2// ?
 
 result = a / b;
 
@@ -40,7 +40,7 @@ c = 10;
 
 d = 0;
 
-result =  // ?
+result = (a+b+c+d)/4  // ?
 
 // Question 5
 // Make the result be the remainder from when a and b are divided
@@ -49,14 +49,14 @@ a = 10;
 
 b = 3;
 
-result =  // ?
+result = a%b // ?
 
 // Question 6
 // Make the result a boolean of whether or not a is an even number
 
 a = 10;
 
-result =  // ?
+result = (a%2 ==0)  // ?
 
 // - For the following questions, you will need to use for loops -
 // https://www.w3schools.com/js/js_loop_for.asp
@@ -64,8 +64,8 @@ result =  // ?
 // Question 7
 // Make the console.log run 7 times
 
-var step;
-
+var step=0
+for(step = 0; step < 7; step+=1)
   console.log("I am logging 7 times");
 
 // Question 8
@@ -74,6 +74,10 @@ var step;
 result = 0;
 a = 10;
 
+
+for(i=0; i+1) {
+    result +=i
+}
 
 // ?
 
