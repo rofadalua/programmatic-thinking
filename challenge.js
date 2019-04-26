@@ -74,20 +74,20 @@ for(step = 0; step < 7; step+=1)
 result = 0;
 a = 10;
 
-
-for(i=0; i+1) {
-    result +=i
-}
+for()
 
 // ?
 
 // Question 9
 // Make the result the sum of all numbers between 0 and 10
 // You cannot write any numbers.
-var startingPlace = 0;
+// var startingPlace = 0;
 var endingPlace = 10;
-var currentNumber;
+var i;
 
+for(i=0; i< endingPlace; i+=1){
+  result+=i
+}
 result = 0;
 
 

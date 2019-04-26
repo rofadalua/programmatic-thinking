@@ -8,7 +8,7 @@ var isEven = function(number){
         return true
     } else {
        return false
-    }
+}
 }
 
 var isThreeEven = isEven(3)
@@ -16,10 +16,10 @@ var isTwoEven = isEven(2)
 
 var isOdd = function(number) {
     if(number % 2 !==0){
-        return false
+        return true
      } else {
-       return true
-        }
+       return false
+     }
     }
   var isFourOdd = isOdd(4)  
   var isThreeOdd = isOdd(3)
