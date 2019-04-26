@@ -204,4 +204,4 @@ var add = function(a, b) {
   return a+b
 };
 
-result = add(10, 10);
+// result = add(10, 10);
