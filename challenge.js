@@ -99,7 +99,7 @@ var endingPlace = 10;
 var zero = 0;
 
 result = 0;
-for (zero = startingPlace; zero < endingPlace; zero += 1) {
+for (zero = startingPlace; zero <= endingPlace; zero += 1) {
   if (zero % 2 == 0) {
     result += zero;
   }
@@ -139,7 +139,10 @@ var three = 3;
 var i;
 
 result = 0;
- for(i=0; i<)
+ for(i=0; i<15; i+=1)
+ if(i%three == 0) {
+     result+=i
+ }
 
 
 // for (i = 0; i < 15; i += 1) {
@@ -157,6 +160,11 @@ result = 0;
 
 result = 0;
 var i = 0;
+
+
+for(i=0; i<7; i+=i){
+    result+=1;
+}
 // for (i = 0; i < 7; i += 1) {
 //   result += 1;
 // }
