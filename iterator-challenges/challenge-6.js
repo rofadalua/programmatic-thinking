@@ -3,7 +3,7 @@
 
 var average = function(numbers){
 
-    return undefined // ?
+    return numbers.average
 }
 
 var fifteen = average([10, 20])

@@ -3,9 +3,8 @@
 
 var add = function(numbers){
     let result = 0
-    // ?
-        result += undefined // ?
-    // ?
+    numbers.add
+        result +=numbers // ?
     return result
 }
 

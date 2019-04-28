@@ -3,7 +3,11 @@
 
 array = [ 1, 2, 3 ]
 result = 0
+array.forEach(function(array){
+   result+=array
+})
 
-// ?
-    result += undefined // ?
+
+
+    // result +=element
 // ?
