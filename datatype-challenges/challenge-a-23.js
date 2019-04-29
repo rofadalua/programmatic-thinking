@@ -1,4 +1,4 @@
-// Challenge 22
+// Challenge 23
 // Set result equal to 1.
 // Do not write 1.
 
@@ -8,12 +8,10 @@ class Obj {
         one: 1
     }
 
-    method(){
-        return undefined // ?
-    }
+    // ?
 
 }
 
 var obj = new Obj
 
-var result = obj.method() 
+var result = undefined // ?
