@@ -191,7 +191,7 @@ result = 0;
 var i = 0;
 
 for (i = 0; i < 5; i += 2) {
-  //if(i/2==5){
+  //zif(i/2==5){
   result += 2;
   //}
 }

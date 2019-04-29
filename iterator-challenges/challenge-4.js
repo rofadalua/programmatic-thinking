@@ -3,9 +3,11 @@
 
 var add = function(numbers){
     let result = 0
-    numbers.add
-        result +=numbers // ?
-    return result
+   numbers.forEach(function(number){
+    result+=number 
+   })
+      
+    return 
 }
 
 var six = add([ 1, 2, 3])
