@@ -1,6 +1,6 @@
-// Challenge 12
-// Write a function that returns "Houston Codeo's" number of numberOfStudents.
-// Do not write 15.
+// Challenge 13
+// Write a function that returns the the total number of students.
+// Do not write 42.
 
 var flation = {
     houston:{ 
