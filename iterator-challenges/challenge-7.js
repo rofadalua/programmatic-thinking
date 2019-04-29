@@ -6,7 +6,7 @@ var add = function(numbers) {
   numbers.forEach(function(number) {
     total_numbers += number;
   });
-  return total_numbers;
+return total_numbers;
 };
 
 var profit = function(revenue, expenses) {
