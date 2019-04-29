@@ -10,4 +10,3 @@ var obj = {
     }
 }
 
-var result = undefined // ?
