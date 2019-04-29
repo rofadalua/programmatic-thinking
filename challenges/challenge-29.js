@@ -5,7 +5,7 @@
 var isSevenBetweenFiveAndTwenty = betweenFiveAndTwenty(7)
 
 
-var betweenFiveAndTwenty = function(number){
+ betweenFiveAndTwenty = function(number){
     if(number > 5 && number < 20){
         return true
     }

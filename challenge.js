@@ -81,11 +81,11 @@ a = 10;
 // Question 9
 // Make the result the sum of all numbers between 0 and 10
 // You cannot write any numbers.
-var endingPlace = 10;
-var startingPlace = 0;
+// var endingPlace = 10;
+// var startingPlace = 0;
 result = 0;
 var i = 0
-for(i=0; i<= endingPlace; i+=1){
+for(i=0; i<= 10; i+=1){
   result+=i;
 }
 
@@ -94,14 +94,14 @@ for(i=0; i<= endingPlace; i+=1){
 // Question 10
 // Make the result the sum of all even numbers between 0 and 10
 // You cannot write any numbers.
-var startingPlace = 0;
-var endingPlace = 10;
-var zero = 0;
+// var startingPlace = 0;
+// var endingPlace = 10;
+// var zero = 0;
 
 result = 0;
-for (zero = startingPlace; zero <= endingPlace; zero += 1) {
-  if (zero % 2 == 0) {
-    result += zero;
+for (i = 0; i <= 10; i+= 1) {
+  if (i%2 == 0) {
+    result += i;
   }
 }
 
@@ -139,7 +139,7 @@ var three = 3;
 var i;
 
 result = 0;
- for(i=0; i<15; i+=1)
+ for(i=0; i<45; i+=1)
  if(i%three == 0) {
      result+=i
  }
