@@ -1,4 +1,4 @@
-// Challenge 5
+// Challenge 6
 // Write a function that returns the value of numberOfStudents.
 // Do not write 15.
 
@@ -12,4 +12,3 @@ var flatiron = {
     }
 }
 
-var result = undefined // ?
