@@ -8,7 +8,7 @@ export default class Challenge extends React.Component {
 
     render(){
         return (
-            <h1>{ /* Put "Hello World" here. Do not write Hello World.*/ }</h1>
+            <h1>{ this.state.content}</h1>
         )
     }
 

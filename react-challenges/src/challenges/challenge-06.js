@@ -5,9 +5,11 @@ export default class Challenge extends React.Component {
 
     render(){
         return (
+
+            <HelloWorld />
             // Put a header here with the text "Hello World". 
             // Do not write "Hello World" or "h1" 
-            undefined 
+         
         )
     }
 

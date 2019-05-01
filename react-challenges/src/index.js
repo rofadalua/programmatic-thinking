@@ -5,7 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 const attemptChallenge = num =>
   require(`./challenges/challenge-${num}.js`).default;
 
-const Challenge = attemptChallenge("03");
+const Challenge = attemptChallenge("06");
 ReactDOM.render(<Challenge />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
