@@ -8,10 +8,12 @@ class Obj {
         one: 1
     }
 
-    // ?
+method() {
+ return this.state.one
+}
 
 }
 
 var obj = new Obj
 
-var result = undefined // ?
+var result = obj.method() // ?

@@ -16,3 +16,9 @@ var flation = {
         ]
     }
 }
+
+var myThing = function(){
+    var firstNumberOfStudents = flation.houston.cohorts[0].numberOfStudents
+    var secondNumberOfStudents = flation.houston.cohorts[1].numberOfStudents
+    return  firstNumberOfStudents + secondNumberOfStudents
+}

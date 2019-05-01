@@ -10,4 +10,4 @@ var obj = {
     }
 }
 
-var result = undefined // ?
+var result = obj.foo.baz.bar // ?

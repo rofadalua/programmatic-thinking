@@ -3,3 +3,7 @@
 // Do not write 1.
 
 var array = [ 0, 8, 9, 10, 1]
+var myThing = function(){
+    return array[4]
+}
+

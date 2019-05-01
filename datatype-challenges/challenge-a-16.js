@@ -10,4 +10,5 @@ class Obj {
 
 var obj = new Obj(1)
 
-var result = undefined // ?
+
+var result = obj.bar // ?

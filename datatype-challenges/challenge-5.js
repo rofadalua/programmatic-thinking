@@ -9,4 +9,9 @@ var obj = {
         }
     }
 }
+var hash = function(){
+    // for(var bar in obj) {
+        return  obj.foo.baz.bar
+      }
+      
 

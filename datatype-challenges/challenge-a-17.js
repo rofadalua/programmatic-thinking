@@ -5,11 +5,13 @@
 class Obj { 
 
     method(){
+        // this.bar = one
         return 1
     }
 
 }
 
-var obj = new Obj
+var obj = new Obj()
 
-var result = undefined // ?
+
+var result = obj.method() // ?

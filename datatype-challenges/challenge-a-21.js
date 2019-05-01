@@ -8,7 +8,7 @@ class Obj {
 
 
     method(){
-        return undefined // ?
+        return this.one
     }
 
 }

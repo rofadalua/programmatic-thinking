@@ -21,3 +21,20 @@ var flation = {
         ]
     }
 }
+// var add = function(number_1, number_2){
+//    return number_1 + number_2
+// }
+totalNumber= 0
+flation.houston.cohorts.forEach(function(cohort){
+      console.log(cohort.numberOfStudents)
+
+ totalNumber +=cohort.numberOfStudents
+   
+    // totalNumberOfStudents = []
+    // totalNumberOfStudents+= numberOfStudents[0][1][2]
+})
+// var myFirst = flation.houston.cohorts[0].numberOfStudents
+// var mySecond = flation.houston.cohorts[1].numberOfStudents
+// var myThird = flation.houston.cohorts[2].numberOfStudents
+// totalOfStudents = add(myFirst,mySecond)
+// totalNumber = add(totalOfStudents,myThird)

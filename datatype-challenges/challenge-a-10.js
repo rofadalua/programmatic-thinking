@@ -4,4 +4,9 @@
 
 var somethingElse = {
     bar: [ 0, 1 ]
+   
+}
+
+var numberOfStudents = function(){
+   return somethingElse.bar[1]
 }

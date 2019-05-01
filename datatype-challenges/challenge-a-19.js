@@ -7,7 +7,7 @@ class Obj {
 
     method(){
         var one = 1
-        return undefined // ?
+        return one
     }
 
 }

@@ -12,3 +12,6 @@ var flatiron = {
     }
 }
 
+var that = function(){
+    return flatiron.houston.cohorts.houstonCodeo.numberOfStudents
+}

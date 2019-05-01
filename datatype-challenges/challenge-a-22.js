@@ -9,7 +9,7 @@ class Obj {
     }
 
     method(){
-        return undefined // ?
+        return this.state.one// ?
     }
 
 }

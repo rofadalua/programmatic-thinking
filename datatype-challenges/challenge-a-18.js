@@ -8,8 +8,12 @@ class Obj {
         return 1
     }
 
+    method(){
+        
+    }
+
 }
 
 var obj = new Obj
 
-var result = undefined // ?
+var result = Obj.method()// ?

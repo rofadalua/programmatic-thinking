@@ -16,3 +16,7 @@ var flation = {
         ]
     }
 }
+
+var yes = function(){
+  return   flation.houston.cohorts[1].numberOfStudents
+}
