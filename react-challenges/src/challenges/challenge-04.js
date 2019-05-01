@@ -2,8 +2,11 @@ import React from 'react'
 
 export default class Challenge extends React.Component {
 
-    state = {
-        content: "Hello World"
+    constructor(){
+        super()
+        this.state = {
+            content: "Hello World"
+        }
     }
 
     render(){
