@@ -1,16 +1,12 @@
-import React from 'react'
+import React from "react";
 
 export default class Challenge extends React.Component {
+  constructor() {
+    super();
+    this.content = "Hello World";
+  }
 
-    constructor(){
-        this.content = "Hello World"
-    }
-
-    render(){
-        
-        return (
-            <h1>{ /* Put "Hello World" here. Do not write Hello World.*/ }</h1>
-        )
-    }
-
+  render() {
+    return <h1>{this.content}</h1>;
+  }
 }

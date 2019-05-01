@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import * as serviceWorker from "./serviceWorker";
 
+const attemptChallenge = num =>
+  require(`./challenges/challenge-${num}.js`).default;
 
-const attemptChallenge = num => require(`./challenges/challenge-${num}.js`).default
-
-const Challenge = attemptChallenge('01')
-ReactDOM.render(<Challenge />, document.getElementById('root'));
+const Challenge = attemptChallenge("03");
+ReactDOM.render(<Challenge />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
