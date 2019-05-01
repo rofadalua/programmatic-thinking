@@ -4,7 +4,7 @@ export default class Challenge extends React.Component {
 
 
     render(){
-        return <Header content={undefined} />
+        return <Header content={'Hello World'} />
     }
 
 }
