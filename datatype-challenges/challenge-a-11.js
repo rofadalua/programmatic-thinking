@@ -5,8 +5,6 @@
 var somethingElse = {
     bar: [ 0, {
         foo: 1
-    }, 3 ]
+    } ]
 }
-var myThing = function(){
-    return somethingElse.bar[1].foo
-}
+return somethingElse.bar[1].foo
