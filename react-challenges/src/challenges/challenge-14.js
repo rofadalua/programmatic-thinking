@@ -10,7 +10,11 @@ export default class Challenge extends React.Component {
             //  one that reads "Goodbye World"
             //  one that reads  "Code re-use is fun"
             // Do not write "h1"
-            undefined
+            <div>
+            <Header content={'Hello World'}/>
+            <Header content={'Goodbye World'}/>
+            <Header content={'Code re-use is fun'}/>
+            </div>
         )
     }
 

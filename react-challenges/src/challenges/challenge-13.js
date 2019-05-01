@@ -9,13 +9,13 @@ export default class Challenge extends React.Component {
     render(){
          // Put "Hello World" in an h1 tag below.
         // Do not write Hello World or h1 
-        return undefined
+        return <Header content= {this.state.content}/>
     }
 
 }
 
 class Header extends React.Component {
     render(){
-        return <h1>{undefined}</h1> 
+        return <h1>{this.props.content}</h1> 
     }
 }
