@@ -39,3 +39,4 @@ class Yes extends React.Component{
         return <li>{this.props.message}</li>
     }
 }
+
