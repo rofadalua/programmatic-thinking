@@ -7,6 +7,11 @@ export default class Challenge extends React.Component {
         return (
             
             <ul>
+
+            <List great={'Hello World'}/>
+            <List great={'Goodbye World'}/>
+            <List great={'Code re-use is fun'}/>
+
                 {/* 
                 // Render 3 list items:
                 //  one that reads "Hello World",
@@ -18,4 +23,10 @@ export default class Challenge extends React.Component {
         )
     }
 
+}
+class List extends React.Component{
+    render(){
+        return <li>{this.props.great}</li>
+    }
+    
 }

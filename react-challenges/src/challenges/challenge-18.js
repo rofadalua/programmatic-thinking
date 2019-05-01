@@ -9,7 +9,8 @@ export default class Challenge extends React.Component {
     render(){
         return (
             <ul>
-                {/* 
+               {this.listItems.map(item => <Item message={item}/>)}
+               {/* 
                 // Render 3 list items:
                 //  one that reads "Hello World",
                 //  one that reads "Goodbye World"
@@ -21,4 +22,9 @@ export default class Challenge extends React.Component {
         )
     }
 
+}
+class Item extends React.Component{
+    render(){
+        return <li>{this.props.message}</li>
+    }
 }

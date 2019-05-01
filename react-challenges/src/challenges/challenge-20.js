@@ -3,7 +3,7 @@ import React from 'react'
 export default class Challenge extends React.Component {
 
     state = { 
-        listItems = [
+        listItems : [
             {
                 message: "Hello World"
             }, 
@@ -19,6 +19,8 @@ export default class Challenge extends React.Component {
     render(){
         return (
             <ul>
+
+                {this.state.listItems.map(item => <Yes message={item.message}/>)}
                 {/* 
                 // Render 3 list items:
                 //  one that reads "Hello World",
@@ -31,4 +33,9 @@ export default class Challenge extends React.Component {
         )
     }
 
+}
+class Yes extends React.Component{
+    render(){
+        return <li>{this.props.message}</li>
+    }
 }
