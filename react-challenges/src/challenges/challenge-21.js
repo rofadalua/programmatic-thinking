@@ -1,18 +1,25 @@
-import React from 'react'
+import React from "react";
 
 export default class Challenge extends React.Component {
+  
+  state = {
+    content: "Hello World"
+  };
 
-    state = {
-        content: 'Hello World'
-    }
+//   setState = () => {
 
-    render(){
-        // Change the content to 'Hello World!!!' onClick
-        return (
-            <h1 onClick={() => {
-                this.setState({ content: undefined })
-            }} >{ this.state.content }</h1>
-        )
-    }
+//   }
+// handleClick = () => {
+//     this.setState({ content: "Hello World!!!" });
+//   };
 
-}
+  render() {
+      return(
+    <h1 onClick= {()=> {
+     this.setState({content: 'Hello World!!!!' })
+      }} >{this.state.content} </h1>
+     ) 
+   }
+
+  }
+

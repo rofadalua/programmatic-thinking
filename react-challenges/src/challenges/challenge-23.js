@@ -10,8 +10,8 @@ export default class Challenge extends React.Component {
         // Use setState to change the counter to one more than it's previous value
         return (
             <h1 onClick={() => {
-                this.setState({ counter: undefined })
-            }} >The Count: { undefined /* Render the counter here */ }</h1>
+                this.setState({ counter: `${this.state.counter}1` })
+            }} >{this.state.counter}</h1>
         )
     }
 

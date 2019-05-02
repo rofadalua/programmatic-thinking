@@ -11,7 +11,7 @@ export default class Challenge extends React.Component {
         // Update it to add an exclamation point instead
         return (
             <h1 onClick={() => {
-                this.setState({ content: `${this.state.content}1` })
+                this.setState({ content: `${this.state.content}!` })
             }} >{ this.state.content }</h1>
         )
     }
