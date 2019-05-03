@@ -12,17 +12,18 @@ export default class Challenge extends React.Component {
         // when the "+" button is clicked, increase the counter by one
         return (
             <div>
-                <h1 onClick={ this.handleClick }>
-                    The Count: { this.state.counter }
+                <h1> { this.state.counter }
                 </h1>
-                <button>-</button>
-                <button>+</button>
+                <button onClick={this.handleClick2}>Decrease</button>
+                <button onClick={this.handleClick}>increase</button>
             </div>
         )
     }
 
     handleClick = () => {
-        this.setState({ counter: undefined })
+        this.setState({ counter: ++this.state.counter})
     }
-
+    handleClick2 = () => {
+        this.setState({counter: --this.state.counter})
+    }
 }

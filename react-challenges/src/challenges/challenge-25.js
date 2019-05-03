@@ -19,6 +19,6 @@ export default class Challenge extends React.Component {
 
   handleClick = () => {
     
-    this.setState({ counter: ++this.state.counter });
+    this.setState({ counter: ++this.state.counter});
   };
 }
