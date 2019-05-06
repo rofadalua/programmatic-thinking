@@ -1,17 +1,19 @@
-// Challenge 23
-// Set result equal to 1.
+// Challenge 25
+// Set state.foo equal to 1.
 // Do not write 1.
 
 class Obj { 
 
     state = {
-        one: 1
+        foo: null
     }
 
-    // ?
+    setState(object){
+        this.state.foo = undefined // ?
+    }
 
 }
 
 var obj = new Obj
 
-var result = undefined // ?
+obj.setState({ foo: 1 })
