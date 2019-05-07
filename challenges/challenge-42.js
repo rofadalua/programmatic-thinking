@@ -1,4 +1,4 @@
-// Question 42
+// Question 43
 // Set the result = 'victory'
 // Edit ball however you would like
 // Do not write 'victory'
